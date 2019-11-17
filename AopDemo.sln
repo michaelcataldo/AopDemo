@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.29215.179
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AopDemo.Ordering.Api", "AopDemo\AopDemo.Ordering.Api.csproj", "{044C8E53-C15A-4173-B600-E4D742584173}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AopDemo.Ordering.Api", "AopDemo.Ordering.Api\AopDemo.Ordering.Api.csproj", "{044C8E53-C15A-4173-B600-E4D742584173}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AopDemo.Ordering.Domain", "AopDemo.Ordering.Domain\AopDemo.Ordering.Domain.csproj", "{42F420F3-721F-464A-9604-3F166EFED995}"
 EndProject
