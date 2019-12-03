@@ -35,7 +35,6 @@ namespace AopDemo.Ordering.Application.Requests
             CardExpiration = cardExpiration;
             CardSecurityNumber = cardSecurityNumber;
             CardTypeId = cardTypeId;
-            CardExpiration = cardExpiration;
         }
 
         [DataMember]

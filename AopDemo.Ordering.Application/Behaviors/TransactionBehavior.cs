@@ -27,6 +27,9 @@ namespace AopDemo.Ordering.Application.Behaviors
             _logger = logger ?? throw new ArgumentException(nameof(ILogger));
         }
 
+        // Network resilience / managing optimistic concurrency
+        // Handling many database operations (save changes) in an atomic manner
+        // Publishes integration events
         public async Task<TResponse> Handle(TRequest request, CancellationToken cancellationToken, RequestHandlerDelegate<TResponse> next)
         {
             var response = default(TResponse);

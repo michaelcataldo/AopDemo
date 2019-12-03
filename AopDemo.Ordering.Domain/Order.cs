@@ -6,6 +6,10 @@ namespace AopDemo.Ordering.Domain
 {
     public class Order : Entity
     {
+        public Order()
+        {
+        }
+
         public Order(
             string userId,
             string userName,
@@ -16,7 +20,6 @@ namespace AopDemo.Ordering.Domain
             DateTime cardExpiration,
             Address address)
         {
-            
         }
 
         public void AddOrderItem(int productId, string productName, decimal unitPrice, int units)
